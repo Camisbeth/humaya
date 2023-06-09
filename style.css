@@ -1,7 +1,16 @@
-.bg-success {
-  --bs-bg-opacity: 1;
-  background-color: rgba(
-    var(--bs-success-rgb),
-    var(--bs-bg-opacity)
-  ) !important;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  object-fit: cover;
+  height: 80vh;
+  width: 100%;
+  position: absolute;
+  z-index: -99;
+}
+
+.paragraph {
+  width: 40%;
 }
